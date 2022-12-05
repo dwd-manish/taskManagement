@@ -1,0 +1,36 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Task Management System",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@firebase/component": "0.5.21",
+    "@firebase/firestore": "3.7.3",
+    "@firebase/util": "1.7.3",
+    "bootstrap": "5.2.2",
+    "firebase": "^9.6.0",
+    "react": "18.2.0",
+    "react-bootstrap": "2.6.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
